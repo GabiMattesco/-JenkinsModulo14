@@ -1,5 +1,12 @@
 {
   "devDependencies": {
     "cypress": "^9.6.0"
+  },
+  "dependencies": {
+    "@wdio/browserstack-service": "^7.19.7"
+  },
+  "scripts": {
+    "test": "npx wdio run ./wdio.conf.js",
+    "wdio": "wdio run wdio.conf.js"
   }
 }
